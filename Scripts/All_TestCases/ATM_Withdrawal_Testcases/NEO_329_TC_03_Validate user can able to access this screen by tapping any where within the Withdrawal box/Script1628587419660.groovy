@@ -17,7 +17,7 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-'Verify access the ATM wihdrawal box. '
+'Verify if user can access the ATM wihdrawal box. '
 Mobile.verifyElementExist(findTestObject('ATM withdrawal Home Page/android.widget.TextView - ATM Withdrawal'), 10)
 
 'Take A screenshot'
